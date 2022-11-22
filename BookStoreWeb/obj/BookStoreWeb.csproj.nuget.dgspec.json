@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb\\BookStoreWeb\\BookStoreWeb.csproj": {}
+    "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\BookStoreWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb\\BookStoreWeb\\BookStoreWeb.csproj": {
+    "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\BookStoreWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb\\BookStoreWeb\\BookStoreWeb.csproj",
+        "projectUniqueName": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\BookStoreWeb.csproj",
         "projectName": "BookStoreWeb",
-        "projectPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb\\BookStoreWeb\\BookStoreWeb.csproj",
+        "projectPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\BookStoreWeb.csproj",
         "packagesPath": "C:\\Users\\farha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb\\BookStoreWeb\\obj\\",
+        "outputPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\farha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
