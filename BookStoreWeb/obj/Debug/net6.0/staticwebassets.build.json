@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B0fNGFgBTRE6h4aaV/VUNeulxfmAJrSSfkGjoqpTcqc=",
+  "Hash": "hhTqLFm8w/2MvFenPKtFvY9w38zNYZM8WkN2Y9Hxnfw=",
   "Source": "BookStoreWeb",
   "BasePath": "_content/BookStoreWeb",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BookStoreWeb.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\css\\bootswatchTheme.css",
+      "Identity": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\css\\bootstrap.css",
       "SourceId": "BookStoreWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\",
       "BasePath": "_content/BookStoreWeb",
-      "RelativePath": "css/bootswatchTheme.css",
+      "RelativePath": "css/bootstrap.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +65,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootswatchTheme.css"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
     },
     {
       "Identity": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\css\\site.css",

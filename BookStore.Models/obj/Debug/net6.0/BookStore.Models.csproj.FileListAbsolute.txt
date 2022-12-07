@@ -1,0 +1,15 @@
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStore.Models\bin\Debug\net6.0\BookStore.Models.deps.json
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStore.Models\bin\Debug\net6.0\BookStore.Models.dll
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStore.Models\bin\Debug\net6.0\BookStore.Models.pdb
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStore.Models\obj\Debug\net6.0\BookStore.Models.csproj.AssemblyReference.cache
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStore.Models\obj\Debug\net6.0\BookStore.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStore.Models\obj\Debug\net6.0\BookStore.Models.AssemblyInfoInputs.cache
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStore.Models\obj\Debug\net6.0\BookStore.Models.AssemblyInfo.cs
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStore.Models\obj\Debug\net6.0\BookStore.Models.csproj.CoreCompileInputs.cache
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStore.Models\obj\Debug\net6.0\BookStore.Models.dll
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStore.Models\obj\Debug\net6.0\refint\BookStore.Models.dll
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStore.Models\obj\Debug\net6.0\BookStore.Models.pdb
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStore.Models\obj\Debug\net6.0\ref\BookStore.Models.dll
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStore.Models\bin\Debug\net6.0\BookStore.Utility.dll
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStore.Models\bin\Debug\net6.0\BookStore.Utility.pdb
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStore.Models\obj\Debug\net6.0\BookStore.Models.csproj.CopyComplete

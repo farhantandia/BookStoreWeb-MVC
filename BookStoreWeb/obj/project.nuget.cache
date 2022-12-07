@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EsnXSTvxgovL/2YTh33kqpE4MxwXYjn9kiQyyFw0GuThdSyMTcW7Uq2BDvtcQPOrBrETUxVodeLCR5c6jmTI3g==",
+  "dgSpecHash": "2Icl6meYGG5p0np1K7838HnCXeaDDhN0deg3yBnWQFen7zdzKNzoV8E1ccNbDEw1csgvoNSK3E612fuvt/zUDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\BookStoreWeb.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\farha\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.10\\microsoft.entityframeworkcore.tools.6.0.10.nupkg.sha512",
     "C:\\Users\\farha\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\farha\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "C:\\Users\\farha\\.nuget\\packages\\microsoft.extensions.caching.sqlserver\\6.0.10\\microsoft.extensions.caching.sqlserver.6.0.10.nupkg.sha512",
     "C:\\Users\\farha\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\farha\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
     "C:\\Users\\farha\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

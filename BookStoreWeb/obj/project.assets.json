@@ -1128,6 +1128,24 @@
           }
         }
       },
+      "Microsoft.Extensions.Caching.SqlServer/6.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "1.0.19249.1",
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.Caching.SqlServer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Caching.SqlServer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -3464,6 +3482,47 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "BookStore.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BookStore.Models": "1.0.0",
+          "BookStore.Utility": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
+          "Microsoft.Extensions.Caching.SqlServer": "6.0.10"
+        },
+        "compile": {
+          "bin/placeholder/BookStore.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookStore.DataAccess.dll": {}
+        }
+      },
+      "BookStore.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BookStore.Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BookStore.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookStore.Models.dll": {}
+        }
+      },
+      "BookStore.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BookStore.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookStore.Utility.dll": {}
+        }
       }
     }
   },
@@ -4619,6 +4678,25 @@
         "microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
         "microsoft.extensions.caching.memory.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Caching.SqlServer/6.0.10": {
+      "sha512": "1Cpm3mLwS2eyEirT1QIw+gPYF0lyDTk2j08yUhE+xPS7sV/9792ZKzsGgOmIEwzq7hp9UoUcU5TUSkWNYHxVIA==",
+      "type": "package",
+      "path": "microsoft.extensions.caching.sqlserver/6.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Caching.SqlServer.dll",
+        "lib/net461/Microsoft.Extensions.Caching.SqlServer.xml",
+        "lib/net6.0/Microsoft.Extensions.Caching.SqlServer.dll",
+        "lib/net6.0/Microsoft.Extensions.Caching.SqlServer.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.SqlServer.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.SqlServer.xml",
+        "microsoft.extensions.caching.sqlserver.6.0.10.nupkg.sha512",
+        "microsoft.extensions.caching.sqlserver.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
@@ -9839,10 +9917,28 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "BookStore.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../BookStore.DataAccess/BookStore.DataAccess.csproj",
+      "msbuildProject": "../BookStore.DataAccess/BookStore.DataAccess.csproj"
+    },
+    "BookStore.Models/1.0.0": {
+      "type": "project",
+      "path": "../BookStore.Models/BookStore.Models.csproj",
+      "msbuildProject": "../BookStore.Models/BookStore.Models.csproj"
+    },
+    "BookStore.Utility/1.0.0": {
+      "type": "project",
+      "path": "../BookStore.Utility/BookStore.Utility.csproj",
+      "msbuildProject": "../BookStore.Utility/BookStore.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BookStore.DataAccess >= 1.0.0",
+      "BookStore.Models >= 1.0.0",
+      "BookStore.Utility >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.10",
@@ -9875,7 +9971,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.DataAccess\\BookStore.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.DataAccess\\BookStore.DataAccess.csproj"
+            },
+            "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Models\\BookStore.Models.csproj": {
+              "projectPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Models\\BookStore.Models.csproj"
+            },
+            "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj": {
+              "projectPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

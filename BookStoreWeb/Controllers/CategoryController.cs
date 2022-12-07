@@ -1,5 +1,6 @@
-﻿using BookStoreWeb.Data;
-using BookStoreWeb.Models;
+﻿
+using BookStore.DataAccess;
+using BookStore.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookStoreWeb.Controllers
@@ -50,8 +51,8 @@ namespace BookStoreWeb.Controllers
             {
                 return NotFound();
             }
-            var categoryFromDb = _db.Categories.Find(id);
-            //var categoryFromDbFirst = _db.Categories.FirstOrDefault(u => u.id == id);
+            //var categoryFromDb = _db.Categories.Find(id);
+            var categoryFromDb = _db.Categories.FirstOrDefault(u => u.id == id);
             //var categoryFromDBSingle = _db.Categories.SingleOrDefault(u => u.id == id);
 
             if(categoryFromDb == null)
