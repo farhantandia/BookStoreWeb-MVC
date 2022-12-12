@@ -41,7 +41,7 @@ namespace BookStore.DataAccess.Repository
 
         public void Remove(T entity)
         {
-            dBSet?.Remove(entity);
+            dBSet.Remove(entity);
         }
 
         public void RemoveRange(IEnumerable<T> entity)
