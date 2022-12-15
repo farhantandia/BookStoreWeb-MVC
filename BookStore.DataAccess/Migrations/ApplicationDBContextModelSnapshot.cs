@@ -22,7 +22,7 @@ namespace BookStoreWeb.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("BookStoreWeb.Models.Category", b =>
+            modelBuilder.Entity("BookStore.Models.Category", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -42,7 +42,7 @@ namespace BookStoreWeb.Migrations
 
                     b.HasKey("id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Category");
                 });
 #pragma warning restore 612, 618
         }

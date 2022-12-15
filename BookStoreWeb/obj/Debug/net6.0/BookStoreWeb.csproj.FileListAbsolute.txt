@@ -324,3 +324,4 @@ C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\B
 C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\BookStore.DataAccess.pdb
 C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\BookStore.Models.pdb
 C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\BookStore.Utility.pdb
+C:\Users\farha\Documents\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll

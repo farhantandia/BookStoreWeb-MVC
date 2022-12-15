@@ -1,11 +1,11 @@
-﻿
-using BookStore.DataAccess;
+﻿using BookStore.DataAccess;
 using BookStore.DataAccess.Repository.IRepository;
 using BookStore.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookStoreWeb.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -30,7 +30,7 @@ namespace BookStoreWeb.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Category obj)
         {
-            if(obj.Name == obj.DisplayOrder.ToString())
+            if (obj.Name == obj.DisplayOrder.ToString())
             {
                 ModelState.AddModelError("name", "The DisplayOrder cannot exactly match the Name");
             }
@@ -48,7 +48,7 @@ namespace BookStoreWeb.Controllers
         //GET
         public IActionResult Edit(int? id)
         {
-            if(id == null || id == 0)
+            if (id == null || id == 0)
             {
                 return NotFound();
             }
@@ -56,7 +56,7 @@ namespace BookStoreWeb.Controllers
             var categoryFromDb = _unitOfWork.Category.GetFirstOrDefault(u => u.id == id);
             //var categoryFromDBSingle = _db.Categories.SingleOrDefault(u => u.id == id);
 
-            if(categoryFromDb == null)
+            if (categoryFromDb == null)
             {
                 return NotFound();
             }
@@ -101,12 +101,12 @@ namespace BookStoreWeb.Controllers
             return View(categoryFromDbFirst);
         }
         //POST
-        [HttpPost,ActionName("Delete")]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeletePOST(int? id)
         {
-            var obj = _unitOfWork.Category.GetFirstOrDefault(u=>u.id==id);
-            if(obj == null)
+            var obj = _unitOfWork.Category.GetFirstOrDefault(u => u.id == id);
+            if (obj == null)
             {
                 return NotFound();
             }
@@ -115,7 +115,7 @@ namespace BookStoreWeb.Controllers
             _unitOfWork.Save();
             TempData["success"] = "Category deleted succesfully";
             return RedirectToAction("Index");
-            
+
         }
     }
 }
