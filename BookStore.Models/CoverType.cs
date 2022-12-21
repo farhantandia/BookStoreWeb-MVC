@@ -14,6 +14,6 @@ namespace BookStore.Models
         [Required]
         [Display(Name ="Cover Type")]
         [MaxLength(50)]
-        public string Name { get; set; }
+        public String Name { get; set; }
     }
 }
