@@ -8,7 +8,7 @@ namespace BookStore.Models
         [Key]
         public int id { get; set; }
         [Required]
-        public String Name { get; set; }
+        public string Name { get; set; }
         [DisplayName("Display Order")]
         [Range(1,100,ErrorMessage ="Display Order must be between 1 and 100!")]
         public int DisplayOrder { get; set; }

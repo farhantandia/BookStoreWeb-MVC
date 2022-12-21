@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookStoreWeb.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20221221230017_AddCoverTypeToDb")]
+    [Migration("20221221232059_AddCoverTypeToDb")]
     partial class AddCoverTypeToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
