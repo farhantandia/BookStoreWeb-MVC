@@ -1,6 +1,7 @@
 ﻿using BookStore.DataAccess;
 using BookStore.DataAccess.Repository.IRepository;
 using BookStore.Models;
+using BookStore.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -26,27 +27,28 @@ namespace BookStoreWeb.Controllers
         //GET
         public IActionResult Upsert(int? id)
         {
-            Product product = new();
-            IEnumerable<SelectListItem> CategoryList = _unitOfWork.Category.GetAll().Select(
-                u => new SelectListItem
-                {
-                    Text = u.Name,
-                    Value = u.id.ToString(),
-                });
-            IEnumerable<SelectListItem> CoverTypeList = _unitOfWork.CoverType.GetAll().Select(
-               u => new SelectListItem
-               {
-                   Text = u.Name,
-                   Value = u.id.ToString(),
-               });
+
+            ProductVM productVM = new()
+            {
+                Product = new(),
+
+                CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem { 
+                    Text = i.Name, 
+                    Value = i.id.ToString()
+                }),
+                CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem { 
+                    Text = i.Name, Value =
+                    i.id.ToString() 
+                })
+            };
 
 
             if (id == null || id == 0)
             {
-                ViewBag.CategoryList = CategoryList;
-                ViewData["CoverTypeList"] = CoverTypeList;
-                //create product
-                return View(product);
+                //ViewBag.CategoryList = CategoryList;
+                //ViewData["CoverTypeList"] = CoverTypeList;
+                ////create product
+                return View(productVM);
             }
             else
             {
@@ -54,7 +56,7 @@ namespace BookStoreWeb.Controllers
             }
 
 
-            return View(product);
+            return View(productVM);
         }
     
 
@@ -62,12 +64,12 @@ namespace BookStoreWeb.Controllers
         //POST
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert(Product obj)
+        public IActionResult Upsert(ProductVM obj, IFormFile file)
         {
          
             if (ModelState.IsValid)
             {
-                _unitOfWork.Product.Update(obj);
+                //_unitOfWork.Product.Update(obj);
                 _unitOfWork.Save();
                 TempData["success"] = "Product updated successfully";
                 return RedirectToAction("Index");

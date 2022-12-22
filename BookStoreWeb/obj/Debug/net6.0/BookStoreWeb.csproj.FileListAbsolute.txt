@@ -598,3 +598,10 @@ D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\obj\Debug\net6.0\BookStoreWeb.dll
 D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\obj\Debug\net6.0\ref\BookStoreWeb.dll
 D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\obj\Debug\net6.0\BookStoreWeb.pdb
 D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\obj\Debug\net6.0\BookStoreWeb.genruntimeconfig.cache
+D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\System.IO.Packaging.dll
+D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\obj\Debug\net6.0\BookStoreWeb.MvcApplicationPartsAssemblyInfo.cs
