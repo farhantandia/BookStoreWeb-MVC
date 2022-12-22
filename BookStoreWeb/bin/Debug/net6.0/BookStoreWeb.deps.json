@@ -12,8 +12,10 @@
           "BookStore.Models": "1.0.0",
           "BookStore.Utility": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.10",
+          "Microsoft.Extensions.Caching.SqlServer": "6.0.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.11"
         },
         "runtime": {
@@ -2273,7 +2275,8 @@
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
-          "Microsoft.Extensions.Caching.SqlServer": "6.0.10"
+          "Microsoft.Extensions.Caching.SqlServer": "6.0.10",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.11"
         },
         "runtime": {
           "BookStore.DataAccess.dll": {}
@@ -2281,13 +2284,25 @@
       },
       "BookStore.Models/1.0.0": {
         "dependencies": {
-          "BookStore.Utility": "1.0.0"
+          "BookStore.Utility": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
+          "Microsoft.Extensions.Caching.SqlServer": "6.0.10",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.11"
         },
         "runtime": {
           "BookStore.Models.dll": {}
         }
       },
       "BookStore.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
+          "Microsoft.Extensions.Caching.SqlServer": "6.0.10",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.11"
+        },
         "runtime": {
           "BookStore.Utility.dll": {}
         }

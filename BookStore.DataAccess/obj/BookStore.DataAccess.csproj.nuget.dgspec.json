@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.DataAccess\\BookStore.DataAccess.csproj": {}
+    "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.DataAccess\\BookStore.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.DataAccess\\BookStore.DataAccess.csproj": {
+    "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.DataAccess\\BookStore.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.DataAccess\\BookStore.DataAccess.csproj",
+        "projectUniqueName": "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.DataAccess\\BookStore.DataAccess.csproj",
         "projectName": "BookStore.DataAccess",
-        "projectPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.DataAccess\\BookStore.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\farha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.DataAccess\\obj\\",
+        "projectPath": "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.DataAccess\\BookStore.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Farhan_Tandia\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\farha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Farhan_Tandia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Models\\BookStore.Models.csproj": {
-                "projectPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Models\\BookStore.Models.csproj"
+              "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.Models\\BookStore.Models.csproj": {
+                "projectPath": "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.Models\\BookStore.Models.csproj"
               },
-              "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj": {
-                "projectPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj"
+              "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj": {
+                "projectPath": "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj"
               }
             }
           }
@@ -68,6 +68,10 @@
             "Microsoft.Extensions.Caching.SqlServer": {
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.11, )"
             }
           },
           "imports": [
@@ -76,8 +80,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -86,21 +89,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Models\\BookStore.Models.csproj": {
+    "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.Models\\BookStore.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Models\\BookStore.Models.csproj",
+        "projectUniqueName": "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.Models\\BookStore.Models.csproj",
         "projectName": "BookStore.Models",
-        "projectPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Models\\BookStore.Models.csproj",
-        "packagesPath": "C:\\Users\\farha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Models\\obj\\",
+        "projectPath": "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.Models\\BookStore.Models.csproj",
+        "packagesPath": "C:\\Users\\Farhan_Tandia\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\farha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Farhan_Tandia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,8 +117,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj": {
-                "projectPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj"
+              "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj": {
+                "projectPath": "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj"
               }
             }
           }
@@ -129,14 +132,41 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.Extensions.Caching.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -145,21 +175,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj": {
+    "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj",
+        "projectUniqueName": "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj",
         "projectName": "BookStore.Utility",
-        "projectPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj",
-        "packagesPath": "C:\\Users\\farha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\farha\\Documents\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\obj\\",
+        "projectPath": "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\BookStore.Utility.csproj",
+        "packagesPath": "C:\\Users\\Farhan_Tandia\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\farha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Farhan_Tandia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -184,14 +214,41 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.Extensions.Caching.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -200,7 +257,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
