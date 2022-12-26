@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZAAxM3vWyJCwysjZDv8wYUpp3UHK48rBomsrF0Div7U=",
+  "Hash": "zb6lqsIsoug5vgIun+3XaO4657ghaCINDG88SdO1lzM=",
   "Source": "BookStoreWeb",
   "BasePath": "_content/BookStoreWeb",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\images\\products\\094c6a2e-2575-4d74-b80d-840c6fc795cd.png",
+      "SourceId": "BookStoreWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\",
+      "BasePath": "_content/BookStoreWeb",
+      "RelativePath": "images/products/094c6a2e-2575-4d74-b80d-840c6fc795cd.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\094c6a2e-2575-4d74-b80d-840c6fc795cd.png"
+    },
+    {
+      "Identity": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\js\\product.js",
+      "SourceId": "BookStoreWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\",
+      "BasePath": "_content/BookStoreWeb",
+      "RelativePath": "js/product.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
       "Identity": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\js\\site.js",

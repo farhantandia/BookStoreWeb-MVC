@@ -9,10 +9,9 @@ using System.Threading.Tasks;
 
 namespace BookStore.DataAccess.Repository
 {
-    public class ProductRepository : Repository<Product>, IProductRepository
+    public class ProductRepository : Repository<Product>, IProductRepository 
     {
         private ApplicationDBContext _db;
-
         public ProductRepository(ApplicationDBContext db):base(db)
         {
             _db = db;
