@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MQBMlcdTnuer72PRkT42s1Rl68g0WDcj+cwzIAN3WoA=",
+  "Hash": "wUrE2LhXklAscs8jYiZUh/B3Zvbb1ARlAtsNTkHHPlA=",
   "Source": "BookStoreWeb",
   "BasePath": "_content/BookStoreWeb",
   "Mode": "Default",
@@ -102,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\images\\products\\4d22b326-6bc3-4742-9665-13b486de6e1b.jpg",
+      "Identity": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\images\\products\\08617f8a-1601-4134-83c7-a9beee8844e8.jpg",
       "SourceId": "BookStoreWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\",
       "BasePath": "_content/BookStoreWeb",
-      "RelativePath": "images/products/4d22b326-6bc3-4742-9665-13b486de6e1b.jpg",
+      "RelativePath": "images/products/08617f8a-1601-4134-83c7-a9beee8844e8.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,7 +116,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\4d22b326-6bc3-4742-9665-13b486de6e1b.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\08617f8a-1601-4134-83c7-a9beee8844e8.jpg"
+    },
+    {
+      "Identity": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\images\\products\\8052db77-cbe7-4bc6-89ea-db8ac2d1c426.jpg",
+      "SourceId": "BookStoreWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\",
+      "BasePath": "_content/BookStoreWeb",
+      "RelativePath": "images/products/8052db77-cbe7-4bc6-89ea-db8ac2d1c426.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\8052db77-cbe7-4bc6-89ea-db8ac2d1c426.jpg"
+    },
+    {
+      "Identity": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\images\\products\\ba1cdc3a-7846-4f4f-9bed-695cf5700209.jpg",
+      "SourceId": "BookStoreWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\",
+      "BasePath": "_content/BookStoreWeb",
+      "RelativePath": "images/products/ba1cdc3a-7846-4f4f-9bed-695cf5700209.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\ba1cdc3a-7846-4f4f-9bed-695cf5700209.jpg"
     },
     {
       "Identity": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\js\\product.js",
@@ -168,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\sweetalert2.all.min.js"
+    },
+    {
+      "Identity": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\js\\tinymce.min.js",
+      "SourceId": "BookStoreWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\",
+      "BasePath": "_content/BookStoreWeb",
+      "RelativePath": "js/tinymce.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\tinymce.min.js"
     },
     {
       "Identity": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
