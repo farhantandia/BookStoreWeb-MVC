@@ -15,7 +15,6 @@ D:\GitHub\BookStoreWeb-MVC\BookStore.Utility\bin\Debug\net6.0\BookStore.Utility.
 D:\GitHub\BookStoreWeb-MVC\BookStore.Utility\bin\Debug\net6.0\BookStore.Utility.dll
 D:\GitHub\BookStoreWeb-MVC\BookStore.Utility\bin\Debug\net6.0\ref\BookStore.Utility.dll
 D:\GitHub\BookStoreWeb-MVC\BookStore.Utility\bin\Debug\net6.0\BookStore.Utility.pdb
-D:\GitHub\BookStoreWeb-MVC\BookStore.Utility\obj\Debug\net6.0\BookStore.Utility.csproj.AssemblyReference.cache
 D:\GitHub\BookStoreWeb-MVC\BookStore.Utility\obj\Debug\net6.0\BookStore.Utility.GeneratedMSBuildEditorConfig.editorconfig
 D:\GitHub\BookStoreWeb-MVC\BookStore.Utility\obj\Debug\net6.0\BookStore.Utility.AssemblyInfoInputs.cache
 D:\GitHub\BookStoreWeb-MVC\BookStore.Utility\obj\Debug\net6.0\BookStore.Utility.AssemblyInfo.cs
@@ -24,3 +23,4 @@ D:\GitHub\BookStoreWeb-MVC\BookStore.Utility\obj\Debug\net6.0\BookStore.Utility.
 D:\GitHub\BookStoreWeb-MVC\BookStore.Utility\obj\Debug\net6.0\ref\BookStore.Utility.dll
 D:\GitHub\BookStoreWeb-MVC\BookStore.Utility\obj\Debug\net6.0\BookStore.Utility.pdb
 D:\GitHub\BookStoreWeb-MVC\BookStore.Utility\obj\Debug\net6.0\BookStore.Utility.genruntimeconfig.cache
+D:\GitHub\BookStoreWeb-MVC\BookStore.Utility\obj\Debug\net6.0\BookStore.Utility.csproj.AssemblyReference.cache
