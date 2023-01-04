@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B0nDOIiV7V/cqsTh3zWE5qFIBTOFUro6PKOpKDK4ZAcHiEnIFAdR0kDbNq02ienULXVvn69odcQ+01EmADUu1g==",
+  "dgSpecHash": "a2bvAK0/vj0r25gPfRjjSei0pTPJsoRUuirgCj5MqH0tVv+OHtWon9+/rW/tAN0KUMVgSupQKg7bTRePhF8/7A==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\BookStoreWeb-MVC\\BookStore.Models\\BookStore.Models.csproj",
   "expectedPackageFiles": [
@@ -101,9 +101,11 @@
     "C:\\Users\\Farhan_Tandia\\.nuget\\packages\\microsoft.visualstudio.debugger.contracts\\17.2.0\\microsoft.visualstudio.debugger.contracts.17.2.0.nupkg.sha512",
     "C:\\Users\\Farhan_Tandia\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\6.0.10\\microsoft.visualstudio.web.codegeneration.6.0.10.nupkg.sha512",
     "C:\\Users\\Farhan_Tandia\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\6.0.10\\microsoft.visualstudio.web.codegeneration.core.6.0.10.nupkg.sha512",
+    "C:\\Users\\Farhan_Tandia\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\6.0.10\\microsoft.visualstudio.web.codegeneration.design.6.0.10.nupkg.sha512",
     "C:\\Users\\Farhan_Tandia\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.entityframeworkcore\\6.0.10\\microsoft.visualstudio.web.codegeneration.entityframeworkcore.6.0.10.nupkg.sha512",
     "C:\\Users\\Farhan_Tandia\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.templating\\6.0.10\\microsoft.visualstudio.web.codegeneration.templating.6.0.10.nupkg.sha512",
     "C:\\Users\\Farhan_Tandia\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\6.0.10\\microsoft.visualstudio.web.codegeneration.utils.6.0.10.nupkg.sha512",
+    "C:\\Users\\Farhan_Tandia\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\6.0.10\\microsoft.visualstudio.web.codegenerators.mvc.6.0.10.nupkg.sha512",
     "C:\\Users\\Farhan_Tandia\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Farhan_Tandia\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Farhan_Tandia\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
