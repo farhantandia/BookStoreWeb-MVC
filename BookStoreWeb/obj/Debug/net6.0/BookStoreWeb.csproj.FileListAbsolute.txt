@@ -418,6 +418,7 @@ D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\System.Configuration.Co
 D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\System.Drawing.Common.dll
 D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\System.IO.Packaging.dll
+D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
 D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\System.Runtime.Caching.dll
 D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\GitHub\BookStoreWeb-MVC\BookStoreWeb\bin\Debug\net6.0\System.Security.Permissions.dll
