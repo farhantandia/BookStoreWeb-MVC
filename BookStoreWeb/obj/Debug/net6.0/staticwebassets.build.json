@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AFPgy8CqI1DbYaLHsZXB9tZ4HnU5Noq1pwcXOgXUtP0=",
+  "Hash": "PC6AVzn9aVCW+a5NDTcYSC50GWIZ43iqPLOmv9Oe8lM=",
   "Source": "BookStoreWeb",
   "BasePath": "_content/BookStoreWeb",
   "Mode": "Default",
@@ -1205,6 +1205,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\f9e8b544-2a12-4346-9fee-ca07c684a377.jpg"
+    },
+    {
+      "Identity": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\js\\company.js",
+      "SourceId": "BookStoreWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\",
+      "BasePath": "_content/BookStoreWeb",
+      "RelativePath": "js/company.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\company.js"
     },
     {
       "Identity": "D:\\GitHub\\BookStoreWeb-MVC\\BookStoreWeb\\wwwroot\\js\\mvnrepository.der",
