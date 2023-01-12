@@ -20,7 +20,12 @@
       "ProjectGuid": "5703d307-518d-4b77-966f-34591cd462bf",
       "DisplayName": "BookStore.Models",
       "ColorIndex": 2
+    },
+    "3df25a7d-c0ab-4d35-9475-eefdcb2ba282": {
+      "ProjectGuid": "3df25a7d-c0ab-4d35-9475-eefdcb2ba282",
+      "DisplayName": "BookStore.Utility",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
