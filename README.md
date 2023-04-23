@@ -1,11 +1,12 @@
 # BookStoreWeb-MVC
+Platform: .Net Core 6
 
 ## Features:
 - CRUD Operation using MVC (Shopping Cart)
 - Repository Pattern
-- Identity .Net Core and User Management (Admin, Customer, Company)
+- Identity .Net Core with Email confirmation 
+- User Management (Admin, Customer, Company)
 - Order Management wth Stripe
-- Email confirmation
 - Deployment to Azure
 
 ## Demo
